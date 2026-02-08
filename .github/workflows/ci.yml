@@ -146,8 +146,6 @@ jobs:
         with:
           node-version: 22.x
           check-latest: true
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
 
       - name: Setup pnpm (corepack retry)
         run: |
@@ -226,8 +224,6 @@ jobs:
         with:
           node-version: 22.x
           check-latest: true
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
 
       - name: Setup pnpm (corepack retry)
         run: |
@@ -306,8 +302,6 @@ jobs:
         with:
           node-version: 22.x
           check-latest: true
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
 
       - name: Setup pnpm (corepack retry)
         run: |
@@ -444,8 +438,6 @@ jobs:
         with:
           node-version: 22.x
           check-latest: true
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
 
       - name: Setup pnpm (corepack retry)
         run: |
@@ -522,8 +514,6 @@ jobs:
         with:
           node-version: 22.x
           check-latest: true
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
 
       - name: Setup pnpm (corepack retry)
         run: |
